@@ -1,0 +1,30 @@
+#BlueJ class context
+comment0.target=Punto
+comment0.text=\r\n\ Punto\ define\ un\ par\ de\ coordenadas\ (x,y)\ y\ permite\ mostrar\ esos\ valores\ y\ ademas\r\n\ desplazar\ x\ e\ y.\r\n\ \r\n\ @author\ Pannunzio\ M.\ Nicolas\ -\ Quintana\ R.\ J.\ Antonio\r\n\ @version\ 15/08/25\r\n
+comment1.params=
+comment1.target=Punto()
+comment1.text=\r\n\ Constructor\ que\ no\ recibe\ parametros,\ situa\ el\ punto\ en\ el\ origen\ (0,0).\r\n
+comment10.params=
+comment10.target=java.lang.String\ coordenadas()
+comment10.text=\r\n\ Retorna\ un\ String\ que\ contiene\ la\ coordenada\ (x,\ y)\r\n\ @return\ (X,\ Y)\ con\ sus\ respectivos\ valores.\r\n
+comment2.params=p_x\ p_y
+comment2.target=Punto(double,\ double)
+comment2.text=\r\n\ Constructor\ que\ situa\ el\ punto\ en\ (p_x,p_y).\r\n
+comment3.params=p_x
+comment3.target=void\ setX(double)
+comment4.params=p_y
+comment4.target=void\ setY(double)
+comment5.params=
+comment5.target=double\ getX()
+comment6.params=
+comment6.target=double\ getY()
+comment7.params=p_ptoDistante
+comment7.target=double\ distanciaA(Punto)
+comment7.text=\r\n\ Calcula\ y\ devuelve\ la\ distancia\ entre\ el\ Punto\ y\ otro\ Punto\ que\ es\ recibido\ como\ parametro\r\n\ para\ eso\ usa\ pitagoras\:\ d\ \=\ raizCuadrada(\ (x2-x1)^2\ +\ (y2-y1)^2\ )\r\n\ @param\ Objeto\ de\ clase\ Punto\r\n\ @return\ La\ distancia\ entre\ el\ punto\ "this"\ y\ el\ punto\ que\ se\ recibe\ como\ parametro.\r\n
+comment8.params=p_dx\ p_dy
+comment8.target=void\ desplazar(double,\ double)
+comment8.text=\r\n\ Suma\ p_dx\ a\ x\ y\ p_dy\ a\ y.\ Desplaza\ (x,y)\ a\ (x+p_dx,y+p_dy).\r\n\ @param\ Recibe\ dos\ Double\ que\ son\ dx\ y\ dy,\ cuyos\ valores\ desplazaran\ a\ X\ e\ Y\ respectivamente\r\n
+comment9.params=
+comment9.target=void\ mostrar()
+comment9.text=\r\n\ Muestra\ en\ pantalla\ el\ punto\ (x,\ y)\r\n
+numComments=11

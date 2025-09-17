@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=AplicacionBanco
+comment0.text=\r\n\ Clase\ creada\ para\ instanciar\ objetos\ de\ tipo\ Banco,\ Localidad\ y\ Empleado,\ y\ probar\ sus\ metodos\ de\r\n\ forma\ exhaustiva\r\n\ \r\n\ @author\ Pannunzio\ M.\ Nicolas\ -\ Quintana\ Antonio\r\n\ @version\ 10/09/25\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ Metodo\ main\ que\ inicia\ la\ aplicacion\r\n\ limpia\ la\ pantalla\ y\ ejecuta\ el\ menu\ principal\r\n
+comment2.params=
+comment2.target=void\ menu()
+comment2.text=\r\n\ Menu\ principal\ que\ permite\ crear,\ eliminar\ y\ seleccionar\ un\ banco\ para\ operar\r\n\ Utiliza\ un\ ArrayList\ para\ almacenar\ los\ bancos\ creados\r\n\ Llama\ al\ subMenu\ para\ operar\ sobre\ el\ banco\ seleccionado\r\n\ Finaliza\ cuando\ el\ usuario\ elige\ la\ opcion\ de\ salir\r\n
+comment3.params=teclado
+comment3.target=Banco\ crearBanco(java.util.Scanner)
+comment3.text=\r\n\ Crea\ una\ cuenta\ bancaria\ solicitando\ los\ datos\ por\ teclado\r\n\ @param\ teclado\ Scanner\ para\ leer\ los\ datos\ por\ teclado\r\n\ @return\ retorna\ una\ cuenta\ bancaria\ creada\r\n
+comment4.params=teclado
+comment4.target=Empleado\ crearEmpleado(java.util.Scanner)
+comment4.text=\r\n\ Crea\ un\ empleado\ solicitando\ los\ datos\ por\ teclado\r\n\ @param\ teclado\ Scanner\ para\ leer\ los\ datos\ por\ teclado\r\n\ @return\ retorna\ un\ empleado\ creado\r\n
+comment5.params=p_banco
+comment5.target=void\ subMenu(Banco)
+comment5.text=\r\n\ Submenu\ para\ operar\ sobre\ un\ banco\ seleccionado\r\n\ Permite\ agregar\ y\ quitar\ empleados,\ agregar\ y\ eliminar\ cuentas\ bancarias,\r\n\ listar\ cuentas\ con\ saldo\ cero,\ mostrar\ empleados\ y\ sueldos,\ y\ mostrar\ resumen\ del\ banco\r\n\ @param\ p_banco\ Banco\ sobre\ el\ cual\ se\ van\ a\ realizar\ las\ operaciones\r\n
+comment6.params=teclado
+comment6.target=CuentaBancaria\ crearCuentaBancaria(java.util.Scanner)
+comment6.text=\r\n\ Crea\ una\ cuenta\ bancaria\ solicitando\ los\ datos\ por\ teclado\r\n\ @param\ teclado\ Scanner\ para\ leer\ los\ datos\ por\ teclado\r\n\ @return\ retorna\ una\ cuenta\ bancaria\ creada\r\n
+comment7.params=teclado
+comment7.target=Persona\ crearPersona(java.util.Scanner)
+comment7.text=\r\n\ Crea\ una\ persona\ solicitando\ los\ datos\ por\ teclado\r\n\ @param\ teclado\ Scanner\ para\ leer\ los\ datos\ por\ teclado\r\n\ @return\ retorna\ una\ persona\ creada\r\n
+numComments=8
